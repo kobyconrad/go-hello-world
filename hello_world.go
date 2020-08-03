@@ -4,6 +4,7 @@ package main
 // fmt is formatting library provided by golang, lets us print to terminal and shit
 import (
 	"fmt"
+	"math"
 
 	"github.com/google/uuid"
 )
@@ -43,5 +44,15 @@ func main() {
 
 	g = "reassigning variable"
 	fmt.Println(g)
+
+	//constants
+	const s string = "constant"
+	const n = 500000000
+	const z = 3e20 / n
+	fmt.Println(z)
+
+	fmt.Println(int64(z))
+
+	fmt.Println(math.Sin(n))
 
 }
