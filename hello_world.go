@@ -21,4 +21,27 @@ func main() {
 	fmt.Println(true && false)
 	fmt.Println(true || false)
 	fmt.Println(!true)
+
+	//variables
+	var a = "hello variable"
+	fmt.Println(a)
+
+	var b int = 2
+	fmt.Println(b)
+
+	var c, d int = 3, 4
+	fmt.Println(c + d)
+
+	var e = true
+	fmt.Println(e)
+
+	var f int
+	fmt.Println(f)
+
+	g := "initialize"
+	fmt.Println(g)
+
+	g = "reassigning variable"
+	fmt.Println(g)
+
 }
